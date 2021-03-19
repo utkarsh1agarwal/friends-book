@@ -13,19 +13,25 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
  
 Problem Statement: Build an online friends book web application using Angular   
  
-1. **Background:**  Friends Book is a popular social networking web application that allows registered users to connect with friends. Users can send requests, write posts, and share pictures among friends.  
+### Background:  
+
+Friends Book is a popular social networking web application that allows registered users to connect with friends. Users can send requests, write posts, and share pictures among friends.  
 
 This web application is a regular stop for millions of users. Since it is designed using traditional web development methodologies, navigating to different page of the   application resulted in reloading the entire page. With the increase in web traffic the website load time increased significantly which in turn, impacted the speed and performance of the website. Also, the website could not adapt to different resolutions and device screens. 
 
 All these challenges led to unsatisfied user experience. So, the company decided to upgrade their website using Angular Framework to focus on building responsive and customer-oriented single page web application.  
  
-2. **Goal:** The objective is to develop a RESTful web application that can be easily adopted by users to engage them in social activities with a faster and safer web environment.The framework will be built in a way that ensures maximum re-usability.  
+ 
+### Goal:
+
+The objective is to develop a RESTful web application that can be easily adopted by users to engage them in social activities with a faster and safer web environment.The framework will be built in a way that ensures maximum re-usability.  
  
  
-3.	**Use Cases:**:  The application is designed to provide user-specific functionality. We will have two users for this application: 
- 
- 
-A.	**Admin:** An admin will be able to: 
+### Use Cases:
+
+The application is designed to provide user-specific functionality. We will have two users for this application: 
+  
+**Admin:** An admin will be able to: 
  
 ✓	Block the account of any user 
 ✓	Change and reset the password 
@@ -46,9 +52,14 @@ B.	**User:** User’s will be able to:
 Other than the above functionality, application will have authorization/authentication based on JSON web token (JWT).  
  
  
-4.	**Web Application Requirement:** Angular framework, HTML, CSS, VS Code, NodeJS and MongoDB (you will be provided with a Node.js API which will fetch the data stored in MongoDB database) 
- 
-5.	**Web Application Implementation:** The Web Application will include following aspects:  
+### Web Application Requirement:
+
+Angular framework, HTML, CSS, VS Code, NodeJS and MongoDB 
+
+
+### Web Application Implementation:
+
+The Web Application will include following aspects:  
 -	Registration page 
 -	Login page 
 -	Forgot password page 
